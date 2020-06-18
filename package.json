@@ -1,14 +1,19 @@
 {
-  "name": "hello",
+  "name": "Data-Management-System",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
     "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "less": "^3.11.3",
+    "less-loader": "^6.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
